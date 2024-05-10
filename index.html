@@ -1,0 +1,211 @@
+<!---------------------------------- 
+    Author: Paige Jones
+    Designed For: Dream Day 2024
+------------------------------------>
+
+<!-- Define the document type and language -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CSS. We are using Bootstrap grid to create responsive and 
+        structured layouts on our website by dividing content into rows and columns.  -->
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to custom CSS. These files are used to style our website. -->
+    <link rel="stylesheet" href="styles/animation-styles.css">
+    <link rel="stylesheet" href="styles/background-styles.css">
+    <link rel="stylesheet" href="styles/navbar-styles.css">
+    <link rel="stylesheet" href="styles/card-styles.css">
+    <link rel="stylesheet" href="styles/font-styles.css">
+    <link rel="stylesheet" href="styles/section-styles.css">
+
+
+    <!-- TODO: Name your website. This name will show up in
+        the browser tab.  -->
+    <!-- EXAMPLE: <title>Wizarding 101</title> -->
+
+
+    <!-- TODO: Add you website icon.This image will show up next
+        to the website name in the browser tab.  -->
+    <!-- EXAMPLE: <link rel="icon" href="images/harry_potter/moon.png" type="image/x-icon"> -->
+
+
+</head>
+
+<!-- TODO: Go to styles/background-styles.css
+           Setup your background image -->
+
+<body>
+    <!-- See the background-styles.css. This allows your background image
+        to continuously overlay, regardless of the size of your website. -->
+    <div class="background-overlay">
+        <header>
+
+            <!-- TODO: Go to styles/navbar-styles.css and setup the color of your nav bar.   -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <!-- TODO: Choose the image you want as your navbar logo. -->
+                        <!-- EXAMPLE: <img src="images/harry_potter/moon.png" width="45" height="45"> -->
+
+
+                    </a>
+                    <!-- Navbar toggler for mobile -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <!-- Navbar items -->
+                        <ul class="navbar-nav">
+
+                            <!-- TODO: Create links to your HTML sections.
+                                       You will design this sections below in the <main> tag! -->
+                            <!-- TODO: There should be at least 3 links. -->
+                            <!-- EXAMPLE:
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                </li> 
+                            -->
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+            <!-- TODO: Finish your sections. Add the id value of the corresponding href navbar link to your section tag. -->
+            <!--EXAMPLE: add id="home" to your <section> tag below -->
+            <section class="py-5 text-center section-margins">
+                <div class="container mt-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <div class="float-area">
+                                <!-- TODO: Choose your character image. -->
+                                <!-- EXAMPLE:
+                                    <img src="images/harry_potter/hermione.png" class="img-fluid character-image floating">
+                                -->
+                                <!-- To add animations to your character, open animation-styles.   -->
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <!-- TODO: Let's choose our fonts and add our website header! Open font-styles.css -->
+                            <!-- EXAMPLE
+                                <h1 class="text-color wizard-font">
+                                    Lawrence School of Witchcraft and Wizardry
+                                </h1> 
+                            -->
+
+
+
+                            <!-- TODO: Create a subtitle for your website. If you would like, add a different font here! -->
+                            <!-- EXAMPLE
+                                <p class="text-color magic-font">
+                                    A school for young witches and
+                                    wizards located in the enchanted countryside of Livermore.
+                                </p> 
+                            -->
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TODO: Add the id value of the corresponding href navbar link to your section tag. -->
+            <!--EXAMPLE: id="home" -->
+            <section id="classes" class="py-5 section-margins">
+                <div class="container mt-5">
+
+                    <!-- NOTE: The div class row creates a row of aligned elements on your website.
+                               You can have more than one row. -->
+                    <!-- Recommendation: Put 3 cards in each row tag -->
+                    <div class="row">
+
+                        <!-- TODO: Time to make our cards! Open card-styles.css and animation-styles.css. -->
+
+                        <!-- START OF CARD #1 -->
+                        <div class="col-md-4">
+                            <div class="card custom-cards">
+                                <!-- TODO: Pick your card image, design your cards and  -->
+                                <!-- EXAMPLE:
+                                    <img src="images/harry_potter/potion.png" class="card-image-top leftAndRight"> 
+                                -->
+                                <div class="card-body">
+                                    <!-- TODO: Enter your card title and card text. -->
+                                    <!-- EXAMPLE: 
+                                    <h5 class="card-title">Potion Brewing</h5>
+                                    <p class="card-text">Learn the art of potion brewing and create magical elixirs.</p>
+                                    <a href="#" class="btn btn-primary">Enroll</a> 
+                                -->
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF CARD #1 -->
+
+                        <!-- START OF CARD #2 -->
+                        <div class="col-md-4">
+                            <div class="card custom-cards">
+                                <!-- TODO: Pick your card image, design your cards and  -->
+                                <!-- EXAMPLE:
+                                    <img src="images/harry_potter/quidditch.png" class="card-image-top leftAndRight"> 
+                                -->
+                                <div class="card-body">
+                                    <!-- TODO: Enter your card title and card text. -->
+                                    <!-- EXAMPLE: 
+                                    <h5 class="card-title">Quidditch Practice</h5>
+                                    <p class="card-text">Join thrilling Quidditch matches and soar through the skies on
+                                        broomsticks.</p>
+                                    <a href="#" class="btn btn-primary">Enroll</a>
+                                -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF CARD #2 -->
+
+
+                        <!-- TODO: Can you make a Card #3 on your own? Develop it below! -->
+
+                    </div>
+            </section>
+
+            <!-- TODO: Add the id value of the corresponding href navbar link to your section tag. -->
+            <!--EXAMPLE: id="home" -->
+            <section class="py-5 section-margins">
+                <div class="container">
+                    <!-- TODO: Type a header for this section. Don't forget to include your font from font-styles.css! -->
+                    <!-- EXAMPLE:
+                        <h2 class="text-center text-color wizard-font">Meet some of our magical friends!</h2> 
+                    -->
+
+                    <div class="row">
+                        <!-- TODO: Time to be creative! You can put text, images or more cards in this section. -->
+
+                        <!-- EXAMPLE:
+                            <div class="col-md-4">
+                                <img src="images/harry_potter/hippogriff.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/harry_potter/dragon.png" class="img-fluid">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/harry_potter/owl.png" class="img-fluid">
+                            </div> 
+                        -->
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
